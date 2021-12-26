@@ -26,8 +26,10 @@ namespace IndiceAcademico
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<AcademicDBContext>(opts => {
-                opts.UseSqlServer(Configuration["ConnectionString:DefaultConnectionString"]);
+            services.AddDbContext<AcademicDBContext>(opts =>
+            {
+                opts.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"])
+                .EnableSensitiveDataLogging();
             });
         }
 

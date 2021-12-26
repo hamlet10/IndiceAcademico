@@ -17,12 +17,10 @@ namespace IndiceAcademico.Persistense.Config
             builder.HasMany(s => s.Enrollments).WithOne(e => e.Student)
             .HasForeignKey(e => e.StudentId);
 
-            builder.HasData(
-                new Student { Code = 1059560, Name = "Hamlet", LastName = "Sánchez" },
-                new Student { Code = 1096394, Name = "Pablo", LastName = "Díaz" },
-                new Student { Code = 1095352, Name = "Enamuel", LastName = "Ureña" },
-                new Student { Code = 1095352, Name = "Hector", LastName = "Soriano" }
-            );
+            // builder.HasData(
+
+
+            // );
 
         }
     }

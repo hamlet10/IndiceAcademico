@@ -7,6 +7,12 @@ namespace IndiceAcademico.Models
         public AcademicDBContext(DbContextOptions<AcademicDBContext> options) : base(options)
         {
         }
+
+        public DbSet<Professor> Professors { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Subject> Subjects { get; set; }
+        public DbSet<Enrollments> Enrollments { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfigurationsFromAssembly(typeof(Professor).Assembly);
