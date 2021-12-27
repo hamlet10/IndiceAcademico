@@ -1,0 +1,20 @@
+@using IndiceAcademico.Models;
+@model Enrollments
+
+<form action="Enrollments/Index" , method="post">
+    <label asp-for="SubjectId">Asignatura</label>
+    <select asp-for="SubjectId">
+        @foreach (var item in ViewBag.subject)
+        {
+            <option value="@item.ID">@item.Code - @item.Name</option>
+        }
+    </select>
+    <label asp-for="StudentId">Asignatura</label>
+    <select asp-for="StudentId">
+        @foreach (var item in ViewBag.students)
+        {
+            <option value="@item.ID">@item.Code - @item.LastName, @item.Name</option>
+        }
+    </select>
+    <button type="submit">Guardar</button>
+</form>
