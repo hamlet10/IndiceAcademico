@@ -26,7 +26,7 @@ namespace IndiceAcademico.Controllers
         {
             _context.Enrollments.Add(enrollments);
             _context.SaveChanges();
-            return View();
+            return Redirect("Index");
         }
     }
 }
