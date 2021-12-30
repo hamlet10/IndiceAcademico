@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "caQoHiq7yMaVAK0IWBAWKnJ0qkj3ztYC05AZ3wUmaCisseuBSgQPryBE1lCrJBtLosHL4G/g8fNolgyDo03IZA==",
+  "dgSpecHash": "5fvZ0xZp4LDB7E7aWMFqlpfg1aNjS8/ukIuf51CAcxsstJ2mdp63V9H41O3B/ttS8KIkDGDVzbZWyZCmtZhM+A==",
   "success": true,
   "projectFilePath": "L:\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
   "expectedPackageFiles": [
@@ -161,7 +161,8 @@
     "C:\\Users\\hpsanchez\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\hpsanchez\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hpsanchez\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\hpsanchez\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\hpsanchez\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\hpsanchez\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
   ],
   "logs": []
 }

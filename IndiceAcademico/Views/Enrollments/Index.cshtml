@@ -3,7 +3,21 @@
 
 <form action="Enrollments/Index" , method="post">
     <label asp-for="SubjectId">Asignatura</label>
+
+    @if (ViewBag.success == 1)
+    {
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <label>Registro guardado exitosamente</label>
+                </div>
+            </div>
+        </div>
+
+    }
     <select asp-for="SubjectId">
+
         @foreach (var item in ViewBag.subject)
         {
             <option value="@item.ID">@item.Code - @item.Name</option>
@@ -18,3 +32,8 @@
     </select>
     <button type="submit">Guardar</button>
 </form>
+@section Scripts{
+<script>
+    $('#exampleModal').modal('show');
+</script>
+}

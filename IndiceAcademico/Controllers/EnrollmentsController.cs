@@ -14,19 +14,26 @@ namespace IndiceAcademico.Controllers
             _context = context;
         }
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(int success = 0)
         {
             var enrollment = new Enrollments();
+
             ViewBag.students = _context.Students.ToList();
             ViewBag.subject = _context.Subjects.ToList();
+            ViewBag.success = success;
             return View(enrollment);
         }
         [HttpPost]
-        public IActionResult Index(Enrollments enrollments)
+        public IActionResult Index([Bind("SubjectId, StudentId")] Enrollments enrollments)
         {
-            _context.Enrollments.Add(enrollments);
-            _context.SaveChanges();
-            return Redirect("Index");
+            if (ModelState.IsValid)
+            {
+                _context.Enrollments.Add(enrollments);
+                _context.SaveChanges();
+                return RedirectToAction("Index", new { success = 1 });
+            }
+
+            return View(enrollments);
         }
     }
 }

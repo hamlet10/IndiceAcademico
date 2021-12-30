@@ -364,10 +364,10 @@ L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.cspro
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.dll
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.pdb
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.genruntimeconfig.cache
-L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\staticwebassets\IndiceAcademico.StaticWebAssets.xml
-L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\scopedcss\bundle\IndiceAcademico.styles.css
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Create.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Delete.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Details.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Edit.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Index.cshtml.g.cs
+L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.csproj.AssemblyReference.cache
+L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.GeneratedMSBuildEditorConfig.editorconfig
