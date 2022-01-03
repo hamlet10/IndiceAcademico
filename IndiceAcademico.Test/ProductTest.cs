@@ -1,5 +1,6 @@
 using System;
 using IndiceAcademico.Models;
+
 using Xunit;
 
 namespace IndiceAcademico.Test
@@ -9,7 +10,7 @@ namespace IndiceAcademico.Test
         [Fact]
         public void CanChangeProduct()
         {
-            var p = new Product {Name = "Test", Price = 100M};
+            var p = new Product { Name = "Test", Price = 100M };
         }
     }
 }
