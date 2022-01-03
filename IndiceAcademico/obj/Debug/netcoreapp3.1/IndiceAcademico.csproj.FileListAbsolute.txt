@@ -371,3 +371,8 @@ L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professor
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Index.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.csproj.AssemblyReference.cache
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.GeneratedMSBuildEditorConfig.editorconfig
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Create.cshtml.g.cs
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Delete.cshtml.g.cs
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Details.cshtml.g.cs
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Edit.cshtml.g.cs
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\professors\Index.cshtml.g.cs

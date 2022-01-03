@@ -96,6 +96,60 @@ namespace IndiceAcademico.Persistense
                 context.Subjects.Add(s);
             }
             context.SaveChanges();
+
+            var enrollments = new Enrollments[]
+            {
+                //Hamlet
+                new Enrollments { SubjectId = 22, StudentId = 1, Score = Score.A},
+                new Enrollments { SubjectId = 23, StudentId = 1, Score = Score.B},
+                new Enrollments { SubjectId = 24, StudentId = 1, Score = Score.B},
+                new Enrollments { SubjectId = 25, StudentId = 1, Score = Score.A},
+                new Enrollments { SubjectId = 26, StudentId = 1, Score = Score.A},
+                new Enrollments { SubjectId = 27, StudentId = 1, Score = Score.B},
+                new Enrollments { SubjectId = 28, StudentId = 1, Score = Score.B},
+
+                //Pablo
+                new Enrollments { SubjectId = 1, StudentId = 2, Score = Score.B},
+                new Enrollments { SubjectId = 19, StudentId = 2, Score = Score.A},
+                new Enrollments { SubjectId = 20, StudentId = 2, Score = Score.A},
+                new Enrollments { SubjectId = 21, StudentId = 2, Score = Score.B},
+                new Enrollments { SubjectId = 29, StudentId = 2, Score = Score.C},
+                new Enrollments { SubjectId = 30, StudentId = 2, Score = Score.A},
+                new Enrollments { SubjectId = 31, StudentId = 2, Score = Score.A},
+                
+                //ENMANUEL
+                new Enrollments { SubjectId = 13, StudentId = 3, Score = Score.A},
+                new Enrollments { SubjectId = 14, StudentId = 3, Score = Score.A},
+                new Enrollments { SubjectId = 15, StudentId = 3, Score = Score.B},
+                new Enrollments { SubjectId = 17, StudentId = 3, Score = Score.B},
+                new Enrollments { SubjectId = 18, StudentId = 3, Score = Score.A},
+                new Enrollments { SubjectId = 19, StudentId = 3, Score = Score.A},
+                new Enrollments { SubjectId = 32, StudentId = 3, Score = Score.A},
+                
+                //Gonzalo
+                new Enrollments { SubjectId = 6, StudentId = 4, Score = Score.B},
+                new Enrollments { SubjectId = 7, StudentId = 4, Score = Score.B},
+                new Enrollments { SubjectId = 8, StudentId = 4, Score = Score.A},
+                new Enrollments { SubjectId = 9, StudentId = 4, Score = Score.B},
+                new Enrollments { SubjectId = 10, StudentId = 4, Score = Score.B},
+                new Enrollments { SubjectId = 11, StudentId = 4, Score = Score.A},
+                new Enrollments { SubjectId = 12, StudentId = 4, Score = Score.A},
+                
+                //Hector
+                new Enrollments { SubjectId = 2, StudentId = 5, Score = Score.B},
+                new Enrollments { SubjectId = 3, StudentId = 5, Score = Score.B},
+                new Enrollments { SubjectId = 4, StudentId = 5, Score = Score.B},
+                new Enrollments { SubjectId = 5, StudentId = 5, Score = Score.A},
+                new Enrollments { SubjectId = 16, StudentId = 5, Score = Score.B},
+                new Enrollments { SubjectId = 29, StudentId = 5, Score = Score.B},
+                new Enrollments { SubjectId = 33, StudentId = 5, Score = Score.B},
+            };
+
+            foreach (var e in enrollments)
+            {
+                context.Enrollments.Add(e);
+            }
+            context.SaveChanges();
         }
     }
 }

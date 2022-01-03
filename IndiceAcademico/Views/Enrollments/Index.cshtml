@@ -23,7 +23,7 @@
             <option value="@item.ID">@item.Code - @item.Name</option>
         }
     </select>
-    <label asp-for="StudentId">Asignatura</label>
+    <label asp-for="StudentId">Estudiante</label>
     <select asp-for="StudentId">
         @foreach (var item in ViewBag.students)
         {

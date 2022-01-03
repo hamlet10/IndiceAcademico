@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using IndiceAcademico.Infraestructure.AutoMapper;
 using IndiceAcademico.Models;
 using IndiceAcademico.Persistense;
 using Microsoft.AspNetCore.Builder;
@@ -26,6 +28,7 @@ namespace IndiceAcademico
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(AutoMapperProfile).GetTypeInfo().Assembly);
             services.AddControllersWithViews();
             services.AddDbContext<AcademicDBContext>(opts =>
             {
