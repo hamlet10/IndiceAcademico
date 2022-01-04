@@ -381,6 +381,5 @@ L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Details.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Edit.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
-L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\IndiceAcademico.StaticWebAssets.xml
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.csproj.AssemblyReference.cache
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.GeneratedMSBuildEditorConfig.editorconfig

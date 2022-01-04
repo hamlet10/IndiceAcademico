@@ -2,6 +2,7 @@
 
 
 
+
 <!DOCTYPE html>
 
 <html>
@@ -38,20 +39,33 @@
         </dl>
     </div>
     <div>
-        <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
-        <a asp-action="Index">Back to List</a>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <td>Código</td>
-                <td>Nombre</td>
-                <td>Creditos</td>
-                <td>Creditos</td>
-            </tr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Codigo</td>
+                    <td>Nombre</td>
+                    <td>Creditos</td>
+                    <td>Puntuacion</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Enrollments)
+                {
+                    <tr>
+                        <td>@item.Subject.Code</td>
+                        <td>@item.Subject.Name</td>
+                        <td>@item.Subject.Cred</td>
+                        <td>@item.Score</td>
+                    </tr>
+                }
+            </tbody>
         </table>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+            <a asp-action="Index">Back to List</a>
+        </div>
     </div>
-    
+
 </body>
 
 </html>
