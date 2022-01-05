@@ -1,7 +1,7 @@
 
 using System.Linq;
 using IndiceAcademico.Models;
-using IndiceAcademico.Persistense;
+using IndiceAcademico.Persistence;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IndiceAcademico.Controllers

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace IndiceAcademico.Persistense.Migrations
+namespace IndiceAcademico.Persistence.Migrations
 {
     [DbContext(typeof(AcademicDBContext))]
     [Migration("20211226002746_InitialMIgration")]

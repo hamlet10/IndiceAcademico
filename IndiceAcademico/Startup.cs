@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using IndiceAcademico.Infraestructure.AutoMapper;
 using IndiceAcademico.Models;
-using IndiceAcademico.Persistense;
+using IndiceAcademico.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

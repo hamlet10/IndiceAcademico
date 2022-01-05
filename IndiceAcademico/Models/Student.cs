@@ -8,6 +8,7 @@ namespace IndiceAcademico.Models
         public int Code { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
+        public int ApplicationUserId { get; set; }
         public ICollection<Enrollments> Enrollments { get; set; }
     }
 }

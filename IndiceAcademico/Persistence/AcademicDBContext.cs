@@ -1,7 +1,7 @@
 using IndiceAcademico.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace IndiceAcademico.Persistense
+namespace IndiceAcademico.Persistence
 {
     public class AcademicDBContext : DbContext
     {

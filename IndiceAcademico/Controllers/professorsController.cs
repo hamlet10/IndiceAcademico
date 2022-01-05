@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using IndiceAcademico.Models;
-using IndiceAcademico.Persistense;
+using IndiceAcademico.Persistence;
 
 namespace IndiceAcademico.Controllers
 {

@@ -1,7 +1,7 @@
 using System.Linq;
 using IndiceAcademico.Models;
 
-namespace IndiceAcademico.Persistense
+namespace IndiceAcademico.Persistence
 {
     public static class DBInitializer
     {
