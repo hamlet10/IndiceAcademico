@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using IndiceAcademico.Models;
 using IndiceAcademico.Persistence;
+using IndiceAcademico.Persistence.Identity;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -30,7 +31,10 @@ namespace IndiceAcademico
                 try
                 {
                     var context = service.GetRequiredService<AcademicDBContext>();
+                    var authDBContext = service.GetRequiredService<AuthDBContext>();
+                    authDBContext.Database.Migrate();
                     context.Database.Migrate();
+                    AuthInitializer.Initialize(authDBContext);
                     DBInitializer.Initialize(context);
                 }
                 catch (System.Exception)

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using IndiceAcademico.Infraestructure.AutoMapper;
 using IndiceAcademico.Models;
 using IndiceAcademico.Persistence;
+using IndiceAcademico.Persistence.Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +32,11 @@ namespace IndiceAcademico
             services.AddAutoMapper(typeof(AutoMapperProfile).GetTypeInfo().Assembly);
             services.AddControllersWithViews();
             services.AddDbContext<AcademicDBContext>(opts =>
+            {
+                opts.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"])
+                .EnableSensitiveDataLogging();
+            });
+            services.AddDbContext<AuthDBContext>(opts =>
             {
                 opts.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"])
                 .EnableSensitiveDataLogging();

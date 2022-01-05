@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace IndiceAcademico.Persistence.Identity
 {
-    public class AuthDBContex : IdentityDbContext<ApplicationUser, ApplicationRole, int>
+    public class AuthDBContext : IdentityDbContext<ApplicationUser, ApplicationRole, int>
     {
-        public AuthDBContex(DbContextOptions<AuthDBContex> options) : base(options)
+        public AuthDBContext(DbContextOptions<AuthDBContext> options) : base(options)
         {
 
         }

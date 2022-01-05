@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
+  "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,93 +14402,93 @@
   "RootNamespace": "IndiceAcademico",
   "Documents": [
     {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Create.cshtml",
-      "TargetPath": "Views\\Students\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Enrollments\\Index.cshtml",
-      "TargetPath": "Views\\Enrollments\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Index.cshtml",
-      "TargetPath": "Views\\professors\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Create.cshtml",
-      "TargetPath": "Views\\professors\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Details.cshtml",
-      "TargetPath": "Views\\professors\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Details.cshtml",
-      "TargetPath": "Views\\Students\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Edit.cshtml",
-      "TargetPath": "Views\\professors\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Index.cshtml",
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Index.cshtml",
       "TargetPath": "Views\\Students\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Delete.cshtml",
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Delete.cshtml",
       "TargetPath": "Views\\Students\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Delete.cshtml",
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Enrollments\\Index.cshtml",
+      "TargetPath": "Views\\Enrollments\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Create.cshtml",
+      "TargetPath": "Views\\professors\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Delete.cshtml",
       "TargetPath": "Views\\professors\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Edit.cshtml",
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Index.cshtml",
+      "TargetPath": "Views\\professors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Edit.cshtml",
+      "TargetPath": "Views\\professors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Edit.cshtml",
       "TargetPath": "Views\\Students\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Create.cshtml",
+      "TargetPath": "Views\\Students\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\Students\\Details.cshtml",
+      "TargetPath": "Views\\Students\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "l:\\IndiceAcademico\\IndiceAcademico\\Views\\professors\\Details.cshtml",
+      "TargetPath": "Views\\professors\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

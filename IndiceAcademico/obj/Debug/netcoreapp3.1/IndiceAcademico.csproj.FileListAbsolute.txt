@@ -390,3 +390,9 @@ D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Raz
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Details.cshtml.g.cs
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Edit.cshtml.g.cs
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
+L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\IndiceAcademico.StaticWebAssets.xml
+L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll

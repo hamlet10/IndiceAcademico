@@ -5,6 +5,7 @@ namespace IndiceAcademico.Persistence
 {
     public static class DBInitializer
     {
+        
         public static void Initialize(AcademicDBContext context)
         {
             if (context.Professors.Any())
