@@ -41,6 +41,7 @@ namespace IndiceAcademico
                 opts.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"])
                 .EnableSensitiveDataLogging();
             });
+            services.AddIdentity<ApplicationUser, ApplicationRole>().AddEntityFrameworkStores<AuthDBContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

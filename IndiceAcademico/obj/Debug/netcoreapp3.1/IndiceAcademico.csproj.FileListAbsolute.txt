@@ -396,3 +396,4 @@ L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.
 L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
