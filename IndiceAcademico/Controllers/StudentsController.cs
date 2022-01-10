@@ -10,6 +10,7 @@ using IndiceAcademico.Persistence;
 using AutoMapper.QueryableExtensions;
 using IndiceAcademico.Infraestructure.Dtos;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace IndiceAcademico.Controllers
 {
@@ -25,6 +26,7 @@ namespace IndiceAcademico.Controllers
         }
 
         // GET: Students
+        [Authorize(Roles = "Student")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Students.ToListAsync());

@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using IndiceAcademico.Models;
 using IndiceAcademico.Persistence.Identity;
@@ -20,28 +21,40 @@ namespace IndiceAcademico.Persistence
             {
 
                     new ApplicationUser {
+                        UserName = "francia.mejia@intec.edu.do",
+                        NormalizedUserName = "francia.mejia@intec.edu.do".ToUpper(),
                         Email = "francia.mejia@intec.edu.do",
                         NormalizedEmail = "francia.mejia@intec.edu.do",
                         LockoutEnabled = false,
-                        AccessFailedCount =0
+                        AccessFailedCount =0,
+                        SecurityStamp = Guid.NewGuid().ToString()
                     },
                      new ApplicationUser {
+                        UserName = "1059560@intec.edu.do",
+                        NormalizedUserName = "1059560@intec.edu.do".ToUpper(),
                         Email = "1059560@intec.edu.do",
                         NormalizedEmail = "1059560@intec.edu.do",
                         LockoutEnabled = false,
-                        AccessFailedCount =0
+                        AccessFailedCount =0,
+                        SecurityStamp = Guid.NewGuid().ToString()
                     },
                      new ApplicationUser {
+                        UserName = "1096394@intec.edu.do",
+                        NormalizedUserName = "1096394@intec.edu.do".ToUpper(),
                         Email = "1096394@intec.edu.do",
                         NormalizedEmail = "1096394@intec.edu.do",
                         LockoutEnabled = false,
-                        AccessFailedCount =0
+                        AccessFailedCount =0,
+                        SecurityStamp = Guid.NewGuid().ToString()
                     },
                     new ApplicationUser {
+                        UserName = "1095352@intec.edu.do",
+                        NormalizedUserName = "1095352@intec.edu.do".ToUpper(),
                         Email = "1095352@intec.edu.do",
                         NormalizedEmail = "1095352@intec.edu.do",
                         LockoutEnabled = false,
-                        AccessFailedCount =0
+                        AccessFailedCount =0,
+                        SecurityStamp = Guid.NewGuid().ToString()
                     }
             };
             var password = new PasswordHasher<ApplicationUser>();

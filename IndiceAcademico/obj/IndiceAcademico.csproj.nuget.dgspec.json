@@ -1,33 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "L:\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj": {}
+    "D:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj": {}
   },
   "projects": {
-    "L:\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj": {
+    "D:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
+        "projectUniqueName": "D:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
         "projectName": "IndiceAcademico",
-        "projectPath": "L:\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
-        "packagesPath": "C:\\Users\\hpsanchez\\.nuget\\packages\\",
-        "outputPath": "L:\\IndiceAcademico\\IndiceAcademico\\obj\\",
+        "projectPath": "D:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
+        "packagesPath": "C:\\Users\\Marleny\\.nuget\\packages\\",
+        "outputPath": "D:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hpsanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Marleny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -48,6 +43,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -78,12 +77,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.22, 3.1.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

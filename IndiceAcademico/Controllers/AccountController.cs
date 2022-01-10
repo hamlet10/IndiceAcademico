@@ -1,3 +1,6 @@
+using System.Security.Claims;
+using System.Threading.Tasks;
+using IndiceAcademico.Models.ViewModels;
 using IndiceAcademico.Persistence.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -7,12 +10,12 @@ namespace IndiceAcademico.Controllers
     public class AccountController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> signInManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
         public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _userManager = userManager;
-            this.signInManager = signInManager;
+            _signInManager = signInManager;
         }
 
         [HttpGet]
@@ -20,6 +23,27 @@ namespace IndiceAcademico.Controllers
         {
 
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login([Bind("Email,Password,RememberMe")] LoginViewModel model)
+        {
+            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, true, lockoutOnFailure: true);
+            if (result.Succeeded)
+            {
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.Role, "Student"));
+                if (await _userManager.IsInRoleAsync(user, "Professor"))
+                {
+                    return RedirectToAction("Index", "Professor");
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Students");
+                }
+            }
+            return BadRequest();
+
         }
     }
 }

@@ -397,3 +397,10 @@ L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.
 L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
