@@ -35,7 +35,7 @@ namespace IndiceAcademico.Controllers
                 await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.Role, "Student"));
                 if (await _userManager.IsInRoleAsync(user, "Professor"))
                 {
-                    return RedirectToAction("Index", "Professor");
+                    return RedirectToAction("Index", "Professors");
                 }
                 else
                 {
