@@ -9,7 +9,6 @@ using IndiceAcademico.Infraestructure.AutoMapper;
 using IndiceAcademico.Models;
 using IndiceAcademico.Persistence;
 using IndiceAcademico.Persistence.Identity;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

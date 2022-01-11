@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using IndiceAcademico.Models;
 using IndiceAcademico.Persistence;
+using Microsoft.AspNetCore.Authorization;
 
 namespace IndiceAcademico.Controllers
 {
+    [Authorize(Roles = "Professor")]
     public class professorsController : Controller
     {
         private readonly AcademicDBContext _context;

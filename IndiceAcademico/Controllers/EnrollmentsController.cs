@@ -2,10 +2,12 @@
 using System.Linq;
 using IndiceAcademico.Models;
 using IndiceAcademico.Persistence;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IndiceAcademico.Controllers
 {
+    [Authorize]
     public class EnrollmentsController : Controller
     {
         private readonly AcademicDBContext _context;

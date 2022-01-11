@@ -14,6 +14,8 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace IndiceAcademico.Controllers
 {
+    [Authorize(Roles = "Student, Professor")]
+    
     public class StudentsController : Controller
     {
         private readonly AcademicDBContext _context;
@@ -26,7 +28,7 @@ namespace IndiceAcademico.Controllers
         }
 
         // GET: Students
-        [Authorize(Roles = "Student")]
+        
         public async Task<IActionResult> Index()
         {
             return View(await _context.Students.ToListAsync());

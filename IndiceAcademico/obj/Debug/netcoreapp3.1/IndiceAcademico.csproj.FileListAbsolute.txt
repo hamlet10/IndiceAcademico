@@ -381,8 +381,6 @@ L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Details.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Edit.cshtml.g.cs
 L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
-L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.csproj.AssemblyReference.cache
-L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.GeneratedMSBuildEditorConfig.editorconfig
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Create.cshtml.g.cs
@@ -390,7 +388,6 @@ D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Raz
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Details.cshtml.g.cs
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Edit.cshtml.g.cs
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
-L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\IndiceAcademico.StaticWebAssets.xml
 L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 L:\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -404,3 +401,6 @@ D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Mic
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 D:\Quality_Assurance\IndiceAcademico\IndiceAcademico\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\IndiceAcademico.csprojAssemblyReference.cache
+L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\staticwebassets\IndiceAcademico.StaticWebAssets.xml
+L:\IndiceAcademico\IndiceAcademico\obj\Debug\netcoreapp3.1\scopedcss\bundle\IndiceAcademico.styles.css
