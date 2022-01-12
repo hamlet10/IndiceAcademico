@@ -32,7 +32,7 @@ namespace IndiceAcademico.Controllers
             if (result.Succeeded)
             {
                 var user = await _userManager.FindByEmailAsync(model.Email);
-                await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.Role, "Student"));
+        
                 if (await _userManager.IsInRoleAsync(user, "Professor"))
                 {
                     return RedirectToAction("Index", "Professors");
@@ -42,7 +42,8 @@ namespace IndiceAcademico.Controllers
                     return RedirectToAction("Index", "Students");
                 }
             }
-            return BadRequest();
+            ModelState.AddModelError("LoginError", "Usuario y/o Contraseña Incorrecto");
+            return View(model);
 
         }
 
