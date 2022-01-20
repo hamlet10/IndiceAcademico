@@ -8656,27 +8656,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marleny\\.nuget\\packages\\": {}
+    "C:\\Users\\hpsanchez\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
+      "projectUniqueName": "L:\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
       "projectName": "IndiceAcademico",
-      "projectPath": "D:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
-      "packagesPath": "C:\\Users\\Marleny\\.nuget\\packages\\",
-      "outputPath": "D:\\Quality_Assurance\\IndiceAcademico\\IndiceAcademico\\obj\\",
+      "projectPath": "L:\\IndiceAcademico\\IndiceAcademico\\IndiceAcademico.csproj",
+      "packagesPath": "C:\\Users\\hpsanchez\\.nuget\\packages\\",
+      "outputPath": "L:\\IndiceAcademico\\IndiceAcademico\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Marleny\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\hpsanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -8735,7 +8741,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -37,5 +37,16 @@ namespace IndiceAcademico.Controllers
 
             return View(enrollments);
         }
+        
+        public IActionResult Qualify(int subjectId, int studentId, Score score)
+        {
+            var subject = _context.Subjects.FirstOrDefault(s => s.ID == subjectId);
+            var student = _context.Students.FirstOrDefault(s => s.ID == studentId);
+            Enrollments enrollments = new Enrollments { StudentId = studentId, SubjectId = subjectId, Score = score };
+            _context.Enrollments.Update(enrollments);
+            _context.SaveChanges();
+
+            return View();
+        }
     }
 }
