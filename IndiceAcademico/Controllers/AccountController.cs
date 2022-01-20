@@ -28,11 +28,13 @@ namespace IndiceAcademico.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([Bind("Email,Password,RememberMe")] LoginViewModel model)
         {
+
             var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, true, lockoutOnFailure: true);
             if (result.Succeeded)
             {
+                
                 var user = await _userManager.FindByEmailAsync(model.Email);
-                await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.Role, "Student"));
+                //await _userManager.AddClaimAsync(user, new Claim(ClaimTypes.Role, "Student"));
                 if (await _userManager.IsInRoleAsync(user, "Professor"))
                 {
                     return RedirectToAction("Index", "Professors");
@@ -42,8 +44,14 @@ namespace IndiceAcademico.Controllers
                     return RedirectToAction("Index", "Students");
                 }
             }
-            return BadRequest();
+            ModelState.AddModelError("BadUsorPs", "Usuario y/o Contraseña Incorrecto");
+            return View(model);
 
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
 
         public async Task<IActionResult> Logout()
